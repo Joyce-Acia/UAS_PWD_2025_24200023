@@ -1,10 +1,11 @@
 {
-  "name": "uas_pwd_2025_24200023",
+  "name": "sewaalat",
   "version": "1.0.0",
   "description": "(5 POIN) Fork repository dan beri nama UAS*PWD_2025*(NIM)\r (10 POIN) Tambahkan file foto untuk vacuum cleaner, floor polisher, dan jet cleaner agar katalog lebih menarik.\r (30 POIN) Buatlah database dan table yang sesuai untuk menyimpan data penyewaan SewaAlatBersih.id\r (50 POIN) Buatlah file server.js untuk menghandle submit form penyewaan agar data dapat disimpan pada database yang telah dibuat.\r (5 POIN) push semua pekerjaan Anda ke repository UAS*PWD_2025*(NIM)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Joyce-Acia/UAS_PWD_2025_24200023#readme",
   "dependencies": {
+    "index.js": "^0.0.3",
+    "mysql": "^2.18.1",
     "mysql2": "^3.14.1",
     "nodejs": "^0.0.0"
   }
