@@ -21,6 +21,12 @@ section {
   flex-wrap: wrap;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
+
 .product-card {
   border: 1px solid #ccc;
   padding: 10px;
